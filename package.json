@@ -1,0 +1,26 @@
+{
+  "name": "proxy-server",
+  "main": "proxy.js",
+  "version": "0.0.1",
+  "description": "proxy server",
+  "licenses" : {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/mit-license.php"
+  },
+  "author" : {
+      "name" : "Barney Rubble", 
+      "email" : "b@rubble.com"
+  },
+  "scripts": {
+    "start": "node proxy.js"
+  },
+  "dependencies": {
+    "csv-parse": "^1.0.1",
+    "http-proxy": "^1.12.0",
+    "node-watch": "^0.3.5",
+    "q": "^1.4.1",
+    "sprintf": "^0.1.5",
+    "sudo": "^1.0.3",
+    "yargs": "^3.31.0"
+  }
+}
